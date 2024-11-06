@@ -9,7 +9,7 @@ from main import get_folios
 from doc_models import modelos
 
 st.set_page_config(layout='wide')
-st.sidebar.title("Danfe Maker")
+st.sidebar.title("Filtros")
 
 hotel = st.sidebar.text_input("Hotel ID")
 reserva_input = st.sidebar.text_input("Reserva")
